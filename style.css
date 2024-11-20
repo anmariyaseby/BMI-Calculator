@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: whitesmoke;
+    background: linear-gradient(#0a1128,#001d3d);
+    font-family: "Ubuntu", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 500px;
+    background: linear-gradient(#003566,#001d3d);
+    padding: 30px;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.container h1{
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+}
+/* gender styling */
+.gender{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+  
+    
+}
+.gender #male{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gender #female{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gender #male  img{
+    height: 100%;
+    width: 100%;
+}
+.gender #female  img{
+    height: 100%;
+    width: 100%;
+}
+/* age styling */
+.age{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #014f86;
+    color: white;
+    margin-top: 20px;
+    width: 200px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+.age input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    text-align: center;
+    height: 40px;
+    color: #ff6b35;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100px;
+}
+/* height and weight styling */
+.hw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+.height{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #014f86;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 150px;
+    padding-bottom: 10px;
+}
+.height input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    color: #ff6b35;
+    font-size: 20px;
+    font-weight: 700;
+}
+.weight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #014f86;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    width: 150px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.weight input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    color: #ff6b35;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+}
+/* Button styling for calculate BMI */
+.calc{
+    background-color: #ff6b35;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+}
+.result{
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
